@@ -20,9 +20,9 @@ async def main():
         Message,
     )
 
-    API_ID = int(os.environ["API_ID"])
-    API_HASH = os.environ["API_HASH"]
-    BOT_TOKEN = os.environ["BOT_TOKEN"]
+    API_ID = int(os.environ["32587643"])
+    API_HASH = os.environ["ed569e5bdfabc2c446e142952292f85d"]
+    BOT_TOKEN = os.environ["8809864726:AAH3vl8jLC_hcxJUbtYEisvYEuEytMftTwE"]
     LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", "0"))
     GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
     GIST_ID = os.environ.get("GIST_ID")
